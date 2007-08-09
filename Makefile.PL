@@ -6,7 +6,7 @@ WriteMakefile(
     'VERSION_FROM' => "Format.pm",
     'PREREQ_PM'    => {
         "Template"          => 2.07,
-        "Number::Format"    => undef,
+        "Number::Format"    => 0,
     },
     clean => {
         FILES => 'Template-Plugin-Number-Format-$(VERSION).tar.gz',

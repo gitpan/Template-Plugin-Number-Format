@@ -24,7 +24,7 @@ package Template::Plugin::Number::Format;
 use strict;
 use vars qw($VERSION $DYNAMIC $AUTOLOAD);
 
-$VERSION = sprintf "%d.%02d", q$Revision: 1.1 $ =~ /(\d+)\.(\d+)/;
+$VERSION = '1.02';
 $DYNAMIC = 1;
 
 use Number::Format;
